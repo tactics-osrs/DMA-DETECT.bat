@@ -4,7 +4,7 @@ This is a simple batch script for Windows that prompts the user for the name of 
 
 ## Usage
 
-1. Run the script in a command prompt with administrative privileges.
+1. Run the script in a command prompt with administrative privileges. (or right click, run as admin.)
 2. When prompted, enter the exact name of the DMA device you're looking for (case-sensitive).
 3. If a matching device is found, the details will be written to a file named `dma_devices.txt`.
 
