@@ -11,7 +11,7 @@ if not defined dma_device (
 )
 
 :: Search for the device and write the results to a file
-wmic path win32_PnPEntity get Name, DeviceID | findstr /c:"%dma_device%" > dma_devices.txt
+wmic path win32_PnPEntity get Name, DeviceID | findstr /c:"%dma_device%" >> dma_devices.txt
 
 :: Check if the file is empty (i.e., no matching device was found)
 if not exist dma_devices.txt (
