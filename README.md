@@ -23,3 +23,4 @@ The script includes basic error handling:
 
 If no device name is entered, the script will display an error message and exit with a status code of 1.
 If no matching device is found, the script will display an error message and exit with a status code of 1.
+If "dma_devices.txt" does not exist (such as first time running), it will create the file to the home screen, and continue to log the information for you.
